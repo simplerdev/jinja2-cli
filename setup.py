@@ -13,7 +13,7 @@ jinja2-cli
 
 from setuptools import find_packages, setup
 
-install_requires = ["jinja2"]
+install_requires = ["jinja2==3.0.3"]
 tests_requires = ["pytest", "flake8"]
 
 setup(
